@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Im Archiv öffnen – Einstellungen</title>
+  <style>
+    body { font: 14px/1.5 system-ui, sans-serif; margin: 16px; min-width: 320px; }
+    fieldset { border: 1px solid #ccc; border-radius: 6px; margin-bottom: 12px; }
+    label { display: block; margin: 4px 0; }
+    #status { color: #2a7a2a; height: 1.5em; }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <legend>Archiv-Dienst beim Klick auf das Symbol</legend>
+    <div id="services"></div>
+  </fieldset>
+  <label><input type="checkbox" id="newTab"> Archiv in neuem Tab öffnen</label>
+  <p id="status"></p>
+  <script src="services.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
